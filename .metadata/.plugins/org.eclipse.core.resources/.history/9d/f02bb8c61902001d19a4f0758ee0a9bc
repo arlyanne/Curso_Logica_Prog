@@ -1,0 +1,33 @@
+package classe;
+
+public class DataTeste {
+
+	public static void main(String[] args) {
+		
+		Data data1 = new Data();
+		data1.dia = 01 ;
+		data1.mes = 02;
+		data1.ano = 1995;
+		
+		System.out.printf("%d/%d/%d", data1.dia, data1.mes, data1.ano);
+		
+		Data data2 = new Data();
+		data2.dia = 16;
+		data2.mes = 06;
+		data2.ano = 2000;
+		
+		System.out.printf("%d/%d/%d", data2.dia, data2.mes, data2.ano);
+		
+		var data3 = new Data();
+		data3.dia = 23;
+		data3.mes = 03;
+		data3.ano = 1980;
+		
+		
+		System.out.printf("%d/%d/%d", data3.dia, data3.mes, data3.ano);
+
+		
+
+	}
+
+}

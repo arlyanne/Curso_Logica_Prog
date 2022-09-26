@@ -1,0 +1,29 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class AreaCircunferencia {
+
+	public static void main(String[] args) {
+		Scanner leia = new Scanner(System.in);
+		
+		//System.out.println(2+3);
+		
+		double raio = 3.4; // estou atribuindo ao nome raio que sera 3, sempre que tiver ref. ao nome "raio"
+		final double pi = 3.14159; // estou atribuindo ao nome pi que sera 3.14159
+		
+		System.out.println(pi*raio*raio); //ou fazer assim:
+		
+		double area = pi * raio * raio;
+		System.out.println(area);
+		
+		raio = 10;
+		area = pi * raio * raio;
+		System.out.println("Areal = " + area);
+		
+		
+		
+
+	}
+
+}

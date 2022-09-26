@@ -1,0 +1,14 @@
+package fundamentos;
+
+public class PrimitivoxObjeto {
+
+	public static void main(String[] args) {
+		/* Existem 08 tipos primitivos, são eles:
+		 * 04 Tipos primitivos (numericos) inteiros: byte, short, int, long.
+		 * 02 Tipos primitivos (numericos)  reais: float, double. 
+		 * 02 Tipos primitivos (letras) boolean e caractere
+		 */
+
+	}
+
+}

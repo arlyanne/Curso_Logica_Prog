@@ -1,0 +1,41 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class Temperatura {
+
+	public static void main(String[] args) {
+		Scanner leia = new Scanner(System.in);
+		//( ºF - 32) * 5/9 = ºC
+		
+	    /*
+	     * double ºf, ºc; 
+	     * 
+	     * 
+	     * System.out.println("Digite em ºF quantos graus está fazendo: ");
+		ºf = leia.nextDouble();
+		
+		ºc = ( ºf - 32) * 5/9;
+		
+		*System.out.println(ºc);// ou escrever abaixo de outra forma
+		System.out.println("O farenth transformado em celsuis é de: "+ºc + "ºC.");
+		*/
+		
+		final double ajuste = 32 ;
+		final double fator =  5.0/9.0;
+		double ºf, ºc;
+		
+		System.out.println("Digite em ºf quanto está fazendo: ");
+		ºf = leia.nextDouble();
+		
+		ºc = (ºf - ajuste) * fator;
+		System.out.println("O resultado foi de:  "+ºc +"ºC");
+		
+		
+		
+	    
+		
+
+	}
+
+}

@@ -1,0 +1,39 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+//import javax.swing.JOptionPane;
+
+public class DesafioConversao {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		//String valor1 = JOptionPane.showInputDialog( 
+				//"Digite o primeiro primeiro salario: ");
+		
+		//String valor2 = JOptionPane.showInputDialog(
+				//"Digite o segundo salário: ");
+		
+        //String valor3 = JOptionPane.showInputDialog(
+        		//"Digite o terceiro salário: ");
+		
+		System.out.print("Digite o primeiro salário: ");
+		String valor1 = entrada.nextLine().replace(",", ".");
+		
+		
+		System.out.print("\nDigite o segundo salário: ");
+		String valor2 = entrada.nextLine().replace(",", ".");
+		
+		System.out.print("\nDigite o terceiro salário:");
+		String valor3 = entrada.nextLine().replace(",", ".");
+        
+		
+		System.out.println(valor1+valor2+valor3);
+		
+        
+  entrada.close();
+        		
+	}
+
+}

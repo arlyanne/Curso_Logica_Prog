@@ -1,0 +1,27 @@
+package classe;
+
+public class DataTeste {
+
+	public static void main(String[] args) {
+		
+		Data data1 = new Data(01, 02, 1995);
+		
+		System.out.println(data1.obterDataFormatada());
+		
+		Data data2 = new Data(16, 06, 2000);
+		
+		System.out.println(data2.obterDataFormatada());
+		
+		var data3 = new Data();
+		data3.dia = 23;
+		data3.mes = 03;
+		data3.ano = 1980;
+		
+		
+		System.out.println(data3.obterDataFormatada());
+
+
+
+	}
+
+}

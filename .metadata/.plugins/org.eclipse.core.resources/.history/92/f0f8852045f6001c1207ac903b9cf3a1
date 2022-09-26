@@ -1,0 +1,14 @@
+package fundamentos;
+
+public class DesafioLogicos {
+
+	public static void main(String[] args) {
+		// Trabalho Terça (v ou F)
+		// Trabalho quinta (V ou F)
+		
+		boolean trabalho1 = false;
+		boolean trabalho2 = false;
+
+	}
+
+}

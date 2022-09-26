@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+C:\Users\arlya\OneDrive\Área de Trabalho\Aprendizado Arlyanne\Curso Java = Logica de Programacao -(Leo Leitao)\.metadata\.plugins\org.eclipse.jdt.core
+3328576138.index
+3732647088.index
+267517130.index
+865438229.index
+1865797976.index
+705804648.index
+4044757637.index

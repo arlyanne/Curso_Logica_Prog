@@ -1,0 +1,35 @@
+package fundamentos;
+
+public class TipoString {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Olá pessoal".charAt(2)); // Utilizado o " .charAt()); - identifica qual indice voce quer mostra na tela
+		
+		String s = "Boa tarde! ";
+		System.out.println(s.concat(".........."));
+		System.out.println(s+".............");
+		System.out.println(s.startsWith("Boa")); // Utilizado o " .starWith(0)); - usado para receber alguma palavra, frase ou numero e verifica se esta na frase do que e informa se é verdadeiro ou false
+		System.out.println(s.startsWith("boa")); 
+		System.out.println(s.toLowerCase().startsWith("boa"));  // verifica se é verdaeiro e ignora letras maiscula ou minuscula
+		System.out.println(s.toUpperCase().endsWith("tarde"));
+		System.out.println(s.length());
+		System.out.println(s.equals("BOA TARDE")); 
+		System.out.println(s.equalsIgnoreCase("BOA TARDE")); // verifica se é verdadeiro ou falso ignorando letras maiusculas ou minusculas
+		
+		
+		
+		var nome = "Pedro";
+		var sobrenome = "Santos";
+		int idade = 33;
+		double salario = 12345.987;
+		
+		System.out.println("nome ".concat(nome)+
+				"sobrenome ".concat(sobrenome)+ 
+				"idade"+ idade + 
+				"salario" + salario);
+		
+
+	}
+
+}

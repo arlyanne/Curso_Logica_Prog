@@ -1,0 +1,13 @@
+package classe;
+
+public class Data {
+
+	public static void main(String[] args) {
+		
+		var dia;
+		var mes;
+		var ano;
+
+	}
+
+}

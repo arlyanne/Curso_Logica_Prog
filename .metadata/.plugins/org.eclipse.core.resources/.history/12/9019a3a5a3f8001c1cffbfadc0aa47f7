@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class Exerc03 {
+
+	public static void main(String[] args) {
+		// Crie um programa que recebe uma nota ( pela classe Scanner)
+	   //e checa se você passou direto, ficou de recuperação ou foi reprovado na matéria.
+	  // A regra é a seguinte:Nota 7 ou mais: passou direto
+	  //	Entre 5 e 7: tem direito de fazer uma prova de recuperação
+		// Abaixo de 5: reprovado direto
+
+		Scanner entrada = new Scanner(System.in);
+		
+		String valor = JOptionPane.showInputDialog(
+				"Digite a nota do aluno: ");
+		
+		
+		double nota = Double.parseDouble(valor);
+		
+		if(nota >= 7 ) {
+			System.out.println("Aluno Aprovado");
+		
+		}else if(nota < 7 && nota > 5){
+			System.out.println("Aluno está em recuperação ");
+		
+		}else {
+			System.out.println("Aluno Reprovado ");
+		}
+		
+		
+		entrada.close();
+		
+	}
+
+}

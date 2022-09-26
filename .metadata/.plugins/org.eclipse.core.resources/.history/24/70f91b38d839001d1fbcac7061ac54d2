@@ -1,0 +1,58 @@
+package orientacaoobjeto;
+
+
+import java.util.Scanner;
+
+public class ContaBancariaMain {
+
+	public static void main(String[] args) {
+		Scanner leia = new Scanner (System.in);
+		
+		ContaBancaria cliente1 = new ContaBancaria();
+		
+		int escolha;
+		
+		do {
+			System.out.println("Escolha uma opção: \n");
+			System.out.println("1. Mudar nome do cliente. ");
+			System.out.println("2. Receber o nome do cliente. ");
+			System.out.println("3. ALterar balanço. ");
+			System.out.println("4. Receber balanço. ");
+			System.out.println("5. Depositar. ");
+			System.out.println("6. Sacar. ");
+			System.out.println("7. Sair. ");
+			escolha = nextInt();
+			
+			switch (escolha) {
+			case 1 : cliente1.setNome();break;
+				
+			}
+			
+		}while(escolha!=5)
+		
+		
+		cliente1.setNome("Maria Ariana");
+		System.out.println(cliente1.getNome());
+		
+		
+		cliente1.setBalanco(58000);
+		System.out.println(cliente1.getBalanco());
+		
+		System.out.println(cliente1.getBalanco());
+		cliente1.deposito(1000);
+		
+		
+		
+		
+		
+
+		
+
+	}
+
+	private static int nextInt() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

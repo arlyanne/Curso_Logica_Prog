@@ -1,0 +1,27 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class DesafioConversao {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		String salario1 = JOptionPane.showInputDialog( // JOptionsPane.showInputDilog é para abrir uma janela com o que voce quer mostrar ao usuario
+				"Digite o primeiro primeiro salario: ");
+		String salario2 = JOptionPane.showInputDialog(
+				"Digite o segundo salário: ");
+        String salario3 = JOptionPane.showInputDialog(
+        		"Digite o terceiro salário: ");
+        
+        double numero1 = Double.parseDouble(salario1);
+		double numero2 = Double.parseDouble(salario2);
+		double numero3 = Double.parseDouble(salario3);
+        
+        double soma =   Double.parseDouble (salario1 + salario2 + salario3 / 2 );
+        		
+	}
+
+}

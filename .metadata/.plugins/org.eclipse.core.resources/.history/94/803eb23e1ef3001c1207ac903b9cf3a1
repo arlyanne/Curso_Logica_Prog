@@ -1,0 +1,17 @@
+package fundamentos;
+
+public class ConversaoTiposPrimitivosNumericos {
+
+	public static void main(String[] args) {
+		
+		double a = (double)1.123456788888889;
+		System.out.println(a);
+		
+		float b = (float) 1.1234567888888;
+		System.out.println(b);
+		
+		
+
+	}
+
+}

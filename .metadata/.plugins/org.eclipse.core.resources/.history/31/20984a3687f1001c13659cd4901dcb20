@@ -1,0 +1,18 @@
+package fundamentos;
+
+public class NotacaoPonto {
+
+	public static void main(String[] args) {
+		
+		double a = 2.3;
+		String s = "Bom dia X";
+		s = s.toUpperCase(); // quando se atribui a parte " .toUpperCase();" em qualquer variavel que quiser a letra ou frase passar a ser toda em maiuscula.
+		
+		s = s.replace("X", "Senhora");
+		
+		System.out.println(s);
+		
+
+	}
+
+}

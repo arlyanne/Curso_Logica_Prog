@@ -1,0 +1,31 @@
+package fundamentos;
+
+public class PrimeiroPrograma {
+	
+	/**
+	 * 
+	 * @author Leonardo Leitao <leitao@author arlyaargs
+	 */
+
+	public static void main(String[] args) {
+		//Uma sentença de codgio termina com ";"
+		//Mais um comentario...
+		//Fim
+		System.out.println("Primeiro Programa Parte #01!");
+		System.out.println("Primeiro Programa Parte #02!");
+		
+		
+		/*
+		   
+		 Linha 01 
+		 Linha 02 
+		 Linha 03... 
+		  
+		  
+		 */
+		System.out.println("Primeiro Programa Parte #03!"); // Aqui tbm funciona
+	
+		
+	}
+
+}

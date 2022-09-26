@@ -1,0 +1,34 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class ConversaoStringNumero {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.print("Digite o primeiro salário: ");
+		double salario1 = entrada.nextDouble();
+		
+		System.out.print("\nDigite o segundo salário: ");
+		double salario2 = entrada.nextDouble();
+		
+		System.out.print("\nDigite o terceiro salário: ");
+		double salario3 = entrada.nextDouble();
+		
+		
+		double soma = salario1 + salario2 + salario3;
+		double media = soma / 2;
+		
+		System.out.printf(" O salário total é de: R$"+ soma , "\n a média será de:"+ media);
+		
+		
+		
+		
+		
+		entrada.close();
+	
+		
+	}
+
+}

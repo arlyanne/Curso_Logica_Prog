@@ -1,0 +1,22 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class ConversaoStringNumero {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.print("Digite o primeiro salário: ");
+		System.out.print("\nDigite o segundo salário: ");
+		System.out.print("\nDigite o terceiro salário: ");
+		
+		
+		
+		
+		entrada.close();
+	
+		
+	}
+
+}
